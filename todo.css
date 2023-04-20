@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+}
+main{
+    background-color: rgb(56, 55, 55);
+    border-style: solid;
+    border-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+input,textarea{
+    width: 360px;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    caret-color: rgb(255, 111, 0);
+    font-family: 'Chivo Mono', monospace;
+    caret-shape: underscore;
+}
+input{
+    height: 30px;
+}
+#sumbitbtn{
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 43%;
+    font-family: 'Chivo Mono', monospace;
+}
+#sumbitbtn:hover{
+    background-color: rgb(255, 111, 0);
+    color: aliceblue;
+    font-family: 'Chivo Mono', monospace;
+}
+table{
+    max-width: 100px;
+    font-family: 'Chivo Mono', monospace;
+}
+tr{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    width: fit-content;
+    padding: 10px;
+    border-bottom-style: solid;
+}
